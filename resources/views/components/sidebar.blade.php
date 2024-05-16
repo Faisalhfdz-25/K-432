@@ -28,15 +28,15 @@
                 <ul class="dropdown-menu">
                     <li class="{{ Request::is('products') ? 'active' : '' }}">
                         <a class="nav-link"
-                            href="{{ route('products.index') }}">Product</a>
+                            href="{{ route('products.index') }}">Products Management</a>
                     </li>
                     <li class="{{ Request::is('categories') ? 'active' : '' }}">
                         <a class="nav-link"
-                            href="{{ route('categories.index') }}">Category Management</a>
+                            href="{{ route('categories.index') }}">Categories Management</a>
                     </li>
                     <li class="{{ Request::is('user') ? 'active' : '' }}">
                         <a class="nav-link"
-                            href="{{ route('user.index') }}">Users</a>
+                            href="{{ route('user.index') }}">Users Management</a>
                     </li>
                 </ul>
             </li>
